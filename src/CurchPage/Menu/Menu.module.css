@@ -1,0 +1,63 @@
+.news, .gallery, .history, .choir, .communities, .contacts, .map, .socialNetworks {
+    position: relative;
+    height: 45px;
+    display: inline-block;
+    border-right: #956033 2px solid;
+    border-bottom: #956033 2px solid;
+    color: #2E1E10;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.news {
+    width: 14.68%;
+}
+
+.gallery {
+    width: 14.94%;
+}
+
+.history {
+    width: 12.6%;
+}
+
+.choir {
+    width: 7.94%;
+}
+
+.communities {
+    width: 19.11%;
+}
+
+.contacts {
+    width: 16.46%;
+}
+
+.map {
+    width: 10.51%;
+}
+
+.socialNetworks {
+    width: 2.93%;
+}
+
+.mean {
+    position: relative;
+    text-align: center;
+    top: 11.5px;
+}
+
+.meanSoc {
+    position: relative;
+    height: 33.5px;
+    top: 11.5px;
+    text-align: center;
+    transition: background-color 1s ease-out 100ms;
+    transition: height 1s ease-out 100ms;
+}
+
+.meanSoc:hover {
+    background-color: #F6DEA2;
+    height: 100px;
+    border-radius: 5px;
+}
