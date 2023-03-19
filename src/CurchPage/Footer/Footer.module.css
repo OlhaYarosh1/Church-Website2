@@ -34,16 +34,19 @@
 .addressTitle {
     margin-left: 220.3px;
     top: -60px;
+    width: 150px;
 }
 
 .jurisdictionTitle {
     margin-left: 655.6px;
     margin-top: -76px;
+    width: 150px;
 }
 
 .phoneTitle {
     margin-left: 1148.4px;
     margin-top: -61px;
+    width: 200px;
 }
 
 .address, .jurisdiction, .phone {
