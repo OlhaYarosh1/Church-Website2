@@ -6,26 +6,26 @@ import { faFacebook, faYoutube, faInstagram } from '@fortawesome/free-brands-svg
 
 const Menu = () => {
   return (
-    <div className={classes.menu}>
-        <div className={classes.news}><div className={classes.mean}>Новини</div></div>
-        <div className={classes.gallery}><div className={classes.mean}>Галерея</div></div>
-        <div className={classes.history}><div className={classes.mean}>Історія</div></div>
-        <div className={classes.choir}><div className={classes.mean}>Хор</div></div>
-        <div className={classes.communities}><div className={classes.mean}>Спільноти</div></div>
-        <div className={classes.contacts}><div className={classes.mean}>Контакти</div></div>
-        <div className={classes.map}><div className={classes.mean}>Мапа</div></div>
+    <div>
+        <a href='./'><button type='button' className={classes.newsButton} autoFocus>Новини</button></a>
+        <button type='button' className={classes.galleryButton}>Галерея</button>
+        <button type='button' className={classes.historyButton}>Історія</button>
+        <button type='button' className={classes.choirButton}>Хор</button>
+        <button type='button' className={classes.communitiesButton}>Спільноти</button>
+        <button type='button' className={classes.contactsButton}>Контакти</button>
+        <button type='button' className={classes.mapButton}>Мапа</button>
         <div className={classes.socialNetworks}>
             <div className={classes.meanSoc}>
                 <FontAwesomeIcon className={classes.icon} icon={faShareNodes}/>
                 <div className={classes.socIcons}> 
-                    <a href='/'><FontAwesomeIcon icon={faFacebook}/><br/></a>
-                    <a href='/'><FontAwesomeIcon icon={faYoutube}/><br/></a>
-                    <a href='/'><FontAwesomeIcon icon={faInstagram}/><br/></a>
+                    <a href='/' className={classes.socMedias}><FontAwesomeIcon icon={faFacebook}/><br/></a>
+                    <a href='/' className={classes.socMedias}><FontAwesomeIcon icon={faYoutube}/><br/></a>
+                    <a href='/' className={classes.socMedias}><FontAwesomeIcon icon={faInstagram}/><br/></a>
                 </div>
             </div>
-            
         </div>
     </div>
+
   )
 }
 

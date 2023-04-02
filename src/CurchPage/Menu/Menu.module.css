@@ -1,53 +1,72 @@
-.news, .gallery, .history, .choir, .communities, .contacts, .map, .socialNetworks {
+.socialNetworks {
     position: relative;
-    height: 45px;
+    height: 43px;
     display: inline-block;
-    border-right: #956033 2px solid;
+    border-right: none;
     border-bottom: #956033 2px solid;
     color: #2E1E10;
     font-size: 16px;
     font-weight: 600;
+    cursor: pointer;
+    width: 3.76%;
+    background-color: #F6DEA2;
+    top: -10px;
 }
 
-.news {
+button {
+    height: 45px;
+    border-radius: 0px;
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 15px;
+    color: #2E1E10;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    border-right: #956033 2px solid;
+    border-bottom: #956033 2px solid;
+}
+
+button:hover {
+    background-color: #DCB076;
+}
+
+button:focus {
+    background-color: #DCB076;
+    outline: #956033;
+}
+
+.newsButton {
     width: 14.68%;
 }
 
-.gallery {
+.galleryButton {
     width: 14.94%;
 }
 
-.history {
+.historyButton {
     width: 12.6%;
 }
 
-.choir {
+.choirButton {
     width: 7.94%;
 }
 
-.communities {
+.communitiesButton {
     width: 19.11%;
 }
 
-.contacts {
+.contactsButton {
     width: 16.46%;
 }
 
-.map {
+.mapButton {
     width: 10.51%;
-}
-
-.socialNetworks {
-    background-color: #F6DEA2;
-    width: 3.03%;
-    cursor: pointer;
-    border-right: none;
 }
 
 .mean {
     position: relative;
     text-align: center;
-    top: 11.5px;
 }
 
 .meanSoc {
@@ -60,13 +79,26 @@
 
 .meanSoc:hover {
     background-color: #F6DEA2;
-    height: 120px;
+    height: 135px;
+    width: 100%;
+    left: -2px;
+    top: 0px;
     border-radius: 5px;
+    border: #956033 2px solid;
+    border-top: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
 }
 
 .meanSoc:hover > .socIcons {
     visibility: visible;
     opacity: 1;
+    top: 15px;
+}
+
+.meanSoc:hover > .icon {
+    position: relative;
+    top: 13px;
 }
 
 .icon {
@@ -85,13 +117,13 @@
     margin-left: -25px;
 }
 
-a {
+.socMedias {
     display: block;
     text-align: center;
     color: #2E1E10;
     font-size: 20px;
 }
 
-a:hover {
+.socMedias:hover {
     color: #956033;
 }
