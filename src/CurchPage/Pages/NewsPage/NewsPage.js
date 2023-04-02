@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const NewsPage = () => {
   return (
@@ -6,4 +6,4 @@ const NewsPage = () => {
   )
 }
 
-export default NewsPage
+export default NewsPage;

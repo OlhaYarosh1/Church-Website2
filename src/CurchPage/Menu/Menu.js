@@ -7,13 +7,13 @@ import { faFacebook, faYoutube, faInstagram } from '@fortawesome/free-brands-svg
 const Menu = () => {
   return (
     <div>
-        <a href='./'><button type='button' className={classes.newsButton} autoFocus>Новини</button></a>
-        <button type='button' className={classes.galleryButton}>Галерея</button>
-        <button type='button' className={classes.historyButton}>Історія</button>
-        <button type='button' className={classes.choirButton}>Хор</button>
-        <button type='button' className={classes.communitiesButton}>Спільноти</button>
-        <button type='button' className={classes.contactsButton}>Контакти</button>
-        <button type='button' className={classes.mapButton}>Мапа</button>
+        <a href='./'><button type='button' className={classes.newsButton}>Новини</button></a>
+        <a href='./Gallery'><button type='button' className={classes.galleryButton}>Галерея</button></a>
+        <a href='./History'><button type='button' className={classes.historyButton}>Історія</button></a>
+        <a href='./Choir'><button type='button' className={classes.choirButton}>Хор</button></a>
+        <a href='./Communities'><button type='button' className={classes.communitiesButton}>Спільноти</button></a>
+        <a href='./Contacts'><button type='button' className={classes.contactsButton}>Контакти</button></a>
+        <a href='./Map'><button type='button' className={classes.mapButton}>Мапа</button></a>
         <div className={classes.socialNetworks}>
             <div className={classes.meanSoc}>
                 <FontAwesomeIcon className={classes.icon} icon={faShareNodes}/>
